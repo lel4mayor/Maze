@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 525px;
+    height: 375px;
+}
+
+#floorCell {
+    background: white;
+    height: 25px;
+    width: 25px;
+}
+
+#wallCell {
+    background: tomato;
+    height: 25px;
+    width: 25px;
+}
+
+#startCell {
+    height: 25px;
+    width: 25px;
+}
+
+#finishCell {
+    height: 25px;
+    width: 25px;
+}
+
+#playerPosition {
+    background: mediumturquoise;
+    border-radius: 10px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+}
